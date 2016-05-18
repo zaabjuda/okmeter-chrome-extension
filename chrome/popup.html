@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>OkMeter Range</title>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="jquery.datetimepicker.full.min.js" type="text/javascript"></script>
+    <link href="jquery.datetimepicker.css" rel="stylesheet" type="text/css"/>
+    
+  </head>
+  <body>
+      <form>
+        <label>Start Time</label>
+        <input type="text" id="datetimepicker"></input>
+        <label>Range Time</label>
+        <select class="duration">
+          <option value="1h">1h</option>
+          <option value="4h">4h</option>
+          <option value="12h">12h</option>
+          <option value="1d">1d</option>
+          <option value="7d">7d</option>
+          <option value="30d">30d</option>
+        </select>
+        <button id="submit" >View</button>
+      </form>
+      <script src="app.js"></script>
+      <script src="init.js" type="text/javascript"></script>
+  </body>
+</html>
